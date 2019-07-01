@@ -1,0 +1,39 @@
+/* Add your styles here */
+/* Add your styles here */
+.loader {
+    border: 36px solid #f3f3f3;
+    border-radius: 80%;
+    border-left: 100px solid brown;
+    border-top: 100px solid blue;
+    border-right: 100px solid green;
+    border-bottom: 100px solid red;
+    width: 320px;
+    height: 320px;
+    -webkit-animation: spin .5s linear infinite;
+    animation: spin 0.5s linear 30;
+  }
+  
+  @-webkit-keyframes spin {
+   50% { -webkit-transform: rotate(360deg); }
+    100% { -webkit-transform: rotate(0deg); }
+  
+  }
+  console.log(linear);
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  
+  }
+  
+  .aaa:hover{
+  background-color: red;
+  }
+  .loader{
+position: relative;
+    background-image: url("roll1.jpg");
+   /* background-color: #ce1010;*/
+  }
+
+  
+  
+
