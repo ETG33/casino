@@ -10,7 +10,7 @@
     width: 320px;
     height: 320px;
     -webkit-animation: spin .5s linear infinite;
-    animation: spin 0.5s linear 30;
+    animation: spin 0.5s linear 180;
   }
   
   @-webkit-keyframes spin {
@@ -33,6 +33,8 @@ position: relative;
     background-image: url("roll1.jpg");
    /* background-color: #ce1010;*/
   }
+
+  
 
   
   
