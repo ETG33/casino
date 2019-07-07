@@ -11,8 +11,16 @@
     <h4>  Ladies and Gentlemans <br> Place your bets</h4>
     <br><br><br><p>spin</p>
     <div class="button">
+             <div ng-mousedown="count = count + 1" ng-init="count=0" />
+
+<h1>{{count}}</h1>
+
+
+
     <button type="button" onclick="myFunction()">Play</button> <h4>  Ladies and Gentlemans <br> Place your bets </h4>
-  
+      
+     
+    </div>
 </div>
     <p id="demo"></p>
     {{a}}
@@ -20,6 +28,7 @@
     <textarea rows="4" cols="5">    </textarea>
     <div class="loader">
     </div>
+    <p>The button has been clicked {{count}} times.</p>
   </head>
 
   <body ng-controller="GamblerCtrl">
@@ -41,11 +50,11 @@
        <h4 ></h4>
      <meta name="viewport" content="width=device-width, initial-scale=2">
      <style>
-     
+        {{ a}}
      </style>
     
     
     {{5+5}}
-   {{a}}
+
   </body>
 </html>
