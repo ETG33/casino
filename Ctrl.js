@@ -1,7 +1,8 @@
 app.controller("GamblerCtrl", function ($scope,$http){
 ;
-
+//var sin{};
 $scope.count = 0;
+//$scope.sin{};
 //$scope.a=document.getElementById("demo").innerHTML =Math.floor((Math.random())* Math.floor(38));
 var a;
 $scope.myFunction = function() {
